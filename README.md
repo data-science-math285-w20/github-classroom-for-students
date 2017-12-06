@@ -1,5 +1,7 @@
 # GitHub Classroom Guide for Students
 
+Most of this content was taken from (./jfiksel/github-classroom-for-students) and edited for our classroom use.
+
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. However, this is not necessary.
 
 ### Steps for getting setup with GitHub
