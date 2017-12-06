@@ -2,10 +2,10 @@
 
 Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use.
 
-This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. However, this is not necessary.
+This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. if you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
 
-### Steps for getting setup with GitHub
-1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
+### Steps for getting setup with GitHub 
+1. **(everyone)** Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager). Please also use your carleton email with this account. 
 
 2. Download RStudio (https://www.rstudio.com/) and R (https://cran.r-project.org/)
 
