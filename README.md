@@ -1,8 +1,13 @@
-# GitHub Classroom Guide for Students 
+# GitHub Classroom Guide for Students in Math 285
 
 Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use.
 
-This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. if you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
+### Using Rstudio in Math285
+If you are using a lab computer (only), I would use Rstudio on the mirage server: https://mirage.mathcs.carleton.edu. See the **yet to be made mirage guide** Alternatively, you could use standalone Rstudio and 
+
+If you are using your personla computer only, I would
+
+This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. If you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
 
 ### Steps for getting setup with GitHub 
 1. **(everyone)** Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager). Please also use your Carleton email with this account. 
@@ -19,7 +24,7 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1.  Have a folder specifically for your class (call it something like classroom-fall-2017). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework.
+1.  Have a folder specifically for your class (call it something like math285). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework.
 
     Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
 
