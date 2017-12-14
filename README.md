@@ -1,8 +1,10 @@
 # GitHub Classroom Guide for Students in Math 285
 
-Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use.
+Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use. This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. If you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
 
-This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. If you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
+### Using Rstudio in Math 285
+
+Before you go over this guide, you need to review the [Using Rstudio in Math 285 page](course-content/Rstudio-in-math285.md).
 
 ### Steps for getting setup with GitHub 
 1. **(everyone)** Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager). Please also use your Carleton email with this account. 
