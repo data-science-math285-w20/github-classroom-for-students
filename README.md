@@ -4,7 +4,7 @@ Most of this content in this guide was taken from https://github.com/jfiksel/git
 
 ### Using Rstudio in Math 285
 
-Before you go over this guide, you need to review the [Using Rstudio in Math 285 page](/course-content/Rstudio-in-math285.md).
+Before you go over this guide, you need to review the [Using Rstudio in Math 285 page](https://github.com/data-science-math285-w18/course-content/blob/master/Rstudio-in-math285.md).
 
 ### Steps for getting setup with GitHub 
 1. **(everyone)** Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager). Please also use your Carleton email with this account. 
@@ -21,7 +21,7 @@ Before you go over this guide, you need to review the [Using Rstudio in Math 285
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1.  Have a folder specifically for your class (call it something like Math285). Within this folder, I would recommend a folder titled slides (this can be pulled from the organization--we will show you how to do this), as well a folder title homework. See the Rstudio setup link to organize your files for this class. Your
+1.  If you followed the suggestions in the [Using Rstudio in Math 285 page](https://github.com/data-science-math285-w18/course-content/blob/master/Rstudio-in-math285.md), then you should already have created a folder for this class (called something like Math285). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework. Here i
 
 ```
 Username
@@ -35,11 +35,11 @@ Username
     |
     |
     |
-    |---homework
+    |--- homework
         │
         │
         |
-        |---assignment1
+        |--- assignment1
 ```
 
 2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page.
