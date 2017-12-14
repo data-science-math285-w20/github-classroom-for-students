@@ -2,11 +2,6 @@
 
 Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use.
 
-### Using Rstudio in Math285
-If you are using a lab computer (only), I would use Rstudio on the mirage server: https://mirage.mathcs.carleton.edu. See the **yet to be made mirage guide** Alternatively, you could use standalone Rstudio and 
-
-If you are using your personla computer only, I would
-
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. If you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
 
 ### Steps for getting setup with GitHub 
@@ -24,36 +19,25 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1.  Have a folder specifically for your class (call it something like math285). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework.
-
-    Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
-
- One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/jfiksel`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/jfiksel/Documents`. I can go back to `/Users/jfiksel` by typing `cd ..`.
-
-    Now I want to make a directory (note I'm using directory and folder interchangeably here). I can use the `mkdir` command. To make a directory called class-directory (it's good practice to not have spaces in your folder names), I can type `mkdir class-directory`. If you type `ls`, you'll now see `class-directory` appear. You can then enter `cd class-directory` to go into the class-directory. Finally, to make the two directories that I talked about, we type `mkdir lectures` and `mkdir homeworks`. Here is a basic illustration of how my directory structure looks for a class titled Advanced Biostatistics Lab taken in Fall 2017 at Johns Hopkins.
+1.  Have a folder specifically for your class (call it something like Math285). Within this folder, I would recommend a folder titled slides (this can be pulled from the organization--we will show you how to do this), as well a folder title homework. See the Rstudio setup link to organize your files for this class. Your
 
 ```
-Users
+Username
 │
 │
 │
-└───jfiksel
+└───Math285
     │
     │
-    │
-    └───hopkins-documents
+    │--- slides
+    |
+    |
+    |
+    |---homework
         │
         │
         |
-        |---advanced-biostatistics-lab-fall-2017
-            |
-            |
-            |
-            |---homework
-            |
-            |
-            |---lectures
-
+        |---assignment1
 ```
 
 2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page.
