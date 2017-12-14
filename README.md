@@ -4,7 +4,7 @@ Most of this content in this guide was taken from https://github.com/jfiksel/git
 
 ### Using Rstudio in Math 285
 
-Before you go over this guide, you need to review the [Using Rstudio in Math 285 page](course-content/Rstudio-in-math285.md).
+Before you go over this guide, you need to review the [Using Rstudio in Math 285 page](~/course-content/Rstudio-in-math285.md).
 
 ### Steps for getting setup with GitHub 
 1. **(everyone)** Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager). Please also use your Carleton email with this account. 
