@@ -74,7 +74,7 @@ In GitHub, navigate to the shared directory. Repeat step 3 from above, where we 
 
 ### Resources
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
-* [The Unix Workbench](http://seankross.com/the-unix-workbench/)
+* [Rstudio, Git and GitHub](http://r-pkgs.had.co.nz/git.html#git-rstudio)
 * [Interactive learning guide for Git](http://learngitbranching.js.org/)
 * [GitHub Guides](https://guides.github.com/)
 * [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
