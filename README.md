@@ -13,7 +13,7 @@ Before you go over this guide, you need to review the [Using Rstudio in Math 285
 
 3. **(non-mirage users)** Install Git. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2
 
-4. **(everyone)** Setup options in Git. Open up the shell in R Studio by clicking Tools -> Shell. **Check this: windows terminal choice in rstudio** Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully
+4. **(everyone)** Setup options in Git. Open up the shell in R Studio by clicking Tools -> Shell. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully
 
 5. **(everyone)** Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R. This is an optional step since you can still use GitHub without setting up a SSH key, you will just need to enter your password every time you push or pull with GitHub. 
 
