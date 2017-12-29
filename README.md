@@ -13,9 +13,13 @@ Before you go over this guide, you need to review the [Using Rstudio in Math 285
 
 3. **(non-mirage users)** Install Git. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2
 
-4. **(everyone)** Setup options in Git. Open up the shell in R Studio by clicking Tools -> Shell. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully
+4. **(everyone)** Setup options in Git. Open up the shell in R Studio by clicking Tools -> Shell. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). 
 
-5. **(everyone)** Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R. This is an optional step since you can still use GitHub without setting up a SSH key, you will just need to enter your password every time you push or pull with GitHub. 
+5. **(everyone)** This step explains how to use GitHub on Rstudio without having to enter your password everytime to connect. This is an optional step since you can still use GitHub without setting up a SSH key or caching credentials, you will just need to enter your password every time you push or pull with GitHub. Pick one method below: SSH or cache creds for HTTPS
+
+One method is to generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R. 
+
+A second method is to cache credentials for using a HTTPS linked project. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/credential-caching.html, which is Chapter 11 in Happy Git with R. 
 
 6. **(everyone)**  Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer.
 
@@ -44,7 +48,7 @@ Username
 
 2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment. Then follow the instructions for getting the homework repository set up for this particular assignment on GitHub. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page.
 
-3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
+3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”. If you are using SSH (step 5 above), make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard. If you are not using an SSH key, make sure it says "Clone with HTTPS" (I think this is the default setting).
 
 4.  In Rstudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank (or keep the auto-filled name).  Browse to find your Math283/homework folder and create this assignment as a subdirectory of your homework folder. 
 
