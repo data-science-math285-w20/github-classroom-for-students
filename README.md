@@ -21,7 +21,7 @@ One method is to generate a SSH key so you don’t need to enter your password e
 
 A second method is to cache credentials for using a HTTPS linked project. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/credential-caching.html, which is Chapter 11 in Happy Git with R. 
 
-6. **(everyone)**  Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer.
+6. **(everyone, optional)**  Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer. (If you can't get this command line push/pull to work that is fine. Try connecting to GitHub via Rstudio, as detailed next. If you can't connect via Rstudio then come see me!)
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
