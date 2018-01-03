@@ -15,7 +15,7 @@ Before you go over this guide, you need to review the [Using Rstudio in Math 285
 
 4. **(everyone)** Setup options in Git. Open up the shell in R Studio by clicking Tools -> Shell. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). 
 
-5. **(everyone)** This step explains how to use GitHub on Rstudio without having to enter your password everytime to connect. This is an optional step since you can still use GitHub without setting up a SSH key or caching credentials, you will just need to enter your password every time you push or pull with GitHub. Pick one method below: SSH or cache creds for HTTPS
+5. **(everyone)** This step explains how to use GitHub on Rstudio without having to enter your password everytime to connect. This is an optional step since you can still use GitHub without setting up a SSH key or caching credentials, you will just need to enter your password every time you push or pull with GitHub. Pick one method below: SSH or cache creds for HTTPS. I've had more success with caching creds for HTTPS (second method), so this is the one you may want to use or try if the SSH method doesn't work!
 
 One method is to generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, through RStudio Tools -> Shell) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R. 
 
