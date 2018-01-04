@@ -84,4 +84,4 @@ In GitHub, navigate to the shared directory. Repeat step 3 from above, where we 
 * [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
 * [Git setup for Mac (video)](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
 * [How to clone, edit, and push homework assignments with GitHub Classroom (video)](https://youtu.be/pAcMgGbCtQw)
-* ![My conflict resolution diagram!](https://github.com/data-science-math285-w18/course-content/ConflictResolution.JPG)
+* ![My conflict resolution diagram!](https://github.com/data-science-math285-w18/course-content/blob/master/ConflictResolution.JPG)
