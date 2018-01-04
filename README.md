@@ -68,13 +68,13 @@ Two things about committing. One, you should commit somewhat frequently. At mini
 
 ### Obtaining and pulling a shared repository (course-content)
 
-Your classroom may have a repository where everyone in the class has access to it, such as a class materials repository (course-content). This repository will probably be updated throughout the class, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Here are the steps.
+Your classroom may have a repository where everyone in the class has access to it, such as a class materials repository (course-content). This repository will probably be updated throughout the class, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Your don't have permission to push any changes to the class repo! Here are the steps.
 
 1. Clone the repository using Rstudio following steps 3-4 above. Create the repo as a subdirectory to your Math285 folder.
 
 In GitHub, navigate to the shared directory. Repeat step 3 from above, where we copy the link that we will use to clone this repository. If you get an error using SSH, you should instead use HTTPS. 
     
-2. To pull in changes, click on the Git toolbar dropdown menu or tab in RStudio and then click `Pull` or `Pull branches`. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by a professor. Professors should be doing their best to ensure this doesn't happen (e.g. by not editing too much after an initial material post), but if it does, take a look at [this site](http://r-pkgs.had.co.nz/git.html#git-pull) and try to fix the merge conflict in Rstudio. If that doesn't work contact your professor.
+2. To pull in changes, click on the Git toolbar dropdown menu or tab in RStudio and then click `Pull` or `Pull branches`. If you get an error about conflict, don't freak out! This can happen if you edit a file that was also changed by a professor. Professors should be doing their best to ensure this doesn't happen (e.g. by not editing too much after an initial material post), but if it does, take a look at [this site](http://r-pkgs.had.co.nz/git.html#git-pull) and try to fix the merge conflict in Rstudio. I also created a diagram shown below that "explains" how and when conflicts will likely happen and how you can resolve the problems in Rstudio. If that doesn't work contact me!
 
 ### Resources
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
@@ -84,3 +84,4 @@ In GitHub, navigate to the shared directory. Repeat step 3 from above, where we 
 * [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
 * [Git setup for Mac (video)](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
 * [How to clone, edit, and push homework assignments with GitHub Classroom (video)](https://youtu.be/pAcMgGbCtQw)
+* ![My helpful conflict resolution diagram!](https://github.com/data-science-math285-w18/course-content/ConflictResolution.JPG)
