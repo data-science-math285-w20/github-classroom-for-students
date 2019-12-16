@@ -2,7 +2,6 @@
 
 Most of this content in this guide was taken from https://github.com/jfiksel/github-classroom-for-students and edited for our classroom use. This is a guide for students to setup Git and GitHub for use with GitHub Classroom. If you are using the mirage Rstudio server you can connect to github without any extra software downloads. If you are using Rstudio on your computer, you will need to download Git software (as directed below) to use github connected projects. 
 
-### What is GitHub?
 We will use GitHub for all Rstudio work done in our course. You will use GitHub to submit homework and collaborate on projects. 
 
 ### Using Rstudio in Math 285
