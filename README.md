@@ -78,4 +78,4 @@ The GitHub repo **course-content** will contain material for our class and it wi
 * [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
 * [Git setup for Mac (video)](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
 * [How to clone, edit, and push homework assignments with GitHub Classroom (video)](https://youtu.be/pAcMgGbCtQw)
-* ![My conflict resolution diagram!](https://github.com/data-science-math285-w18/course-content/blob/master/ConflictResolution.JPG)
+* ![My conflict resolution diagram!](https://github.com/data-science-math285-w20/course-content/blob/master/ConflictResolution.JPG)
